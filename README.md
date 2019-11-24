@@ -1,2 +1,2 @@
 # Exercises
-Collection of coding exercises
+A collection of coding exercises
