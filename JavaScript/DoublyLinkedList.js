@@ -27,6 +27,7 @@ class DoublyLinkedList {
         }
         this.size++;
     }
+    
     //Returns node at given index
     get(index) {
         if (index > this.size - 1) {
@@ -87,8 +88,6 @@ class DoublyLinkedList {
             }
             this.size++;
         }
-
-
     }
 
     //Delete node at specific index of list
@@ -110,7 +109,6 @@ class DoublyLinkedList {
                 temp = temp.next;
                 count++;
             }
-
             //reset pointers to delete node
             temp.prev.next = temp.next;
             temp.next.prev = temp.prev;
